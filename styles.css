@@ -6,6 +6,7 @@
 body{
   margin-left: 5%;
   margin-right: 5%;
+  background-color: #E6E3E3;
 }
 h3{
   color:#68D3FF;
@@ -13,7 +14,6 @@ h3{
 .college{
   color: #2789B3;
   font-family: 'Inconsolata', monospace;
-  margin-top: 1in;
   font-size: 50px;
 }
 
@@ -22,13 +22,15 @@ h3{
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: .5in;
+  margin-top: .4in;
 }
 .event{
-  border: 5px solid darkgrey;
+
   font-family: 'Hind Siliguri', sans-serif;
   width: 6in;
   padding-left: 3%;
   background-color: white;
+  margin-bottom: 10px;
 }
 
 .eventsContainer{
@@ -89,13 +91,11 @@ h3{
   width: 75%;
 }
 .top {
-  border: 3px black solid;
   display: flex;
   justify-content: center;
   flex-direction: row;
   height: 1.25in;
   font-size: 50px;
-  margin-bottom: 0;
   background-color: #2789B3;
   color: white;
   font-family: 'Inconsolata', monospace;
@@ -104,8 +104,29 @@ h2{
     font-family: 'Inconsolata', monospace;
     text-align: center;
     background-color: #FFAE52;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    margin-bottom: .5in;
+
   }
+  .navBar{
+ display: flex;
+ justify-content:space-around;
+}
+.tabs{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-size: 20px;
+ width: 20%;
+ height: 45px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color:#68D3FF;
+ font-family: 'Inconsolata', monospace;
+}
+.tabs:hover{
+ text-decoration: underline;
+ background-color: #FFAE52;
+}
+a{
+ color: #454444;
+}

@@ -6,7 +6,9 @@
 body{
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #E6E3E3;
+  background-image:url(https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h3{
   color:#68D3FF;
@@ -15,6 +17,7 @@ h3{
   color: #2789B3;
   font-family: 'Inconsolata', monospace;
   font-size: 50px;
+  background-color: white;
 }
 
 .title{
